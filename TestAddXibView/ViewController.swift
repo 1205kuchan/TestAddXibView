@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var addScrollView: UIScrollView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let custom = Bundle.main.loadNibNamed("CustomView", owner: self, options: nil)?[0] as! CustomView
+        
+        self.addScrollView.addSubview(custom)
+
     }
 
     override func didReceiveMemoryWarning() {

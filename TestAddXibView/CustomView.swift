@@ -8,6 +8,6 @@
 
 import UIKit
 
-class AddView: UIView{
+class CustomView: UIView{
     
 }

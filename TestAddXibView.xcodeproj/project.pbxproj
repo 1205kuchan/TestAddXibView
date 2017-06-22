@@ -14,6 +14,8 @@
 		B564B2B71EFA6FA400553373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B564B2B51EFA6FA400553373 /* LaunchScreen.storyboard */; };
 		B564B2C21EFA6FA400553373 /* TestAddXibViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564B2C11EFA6FA400553373 /* TestAddXibViewTests.swift */; };
 		B564B2CD1EFA6FA400553373 /* TestAddXibViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564B2CC1EFA6FA400553373 /* TestAddXibViewUITests.swift */; };
+		B564B2DB1EFA701F00553373 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B564B2DA1EFA701F00553373 /* CustomView.xib */; };
+		B564B2DD1EFA707500553373 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564B2DC1EFA707500553373 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B564B2C81EFA6FA400553373 /* TestAddXibViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAddXibViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B564B2CC1EFA6FA400553373 /* TestAddXibViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAddXibViewUITests.swift; sourceTree = "<group>"; };
 		B564B2CE1EFA6FA400553373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B564B2DA1EFA701F00553373 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		B564B2DC1EFA707500553373 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B564B2B31EFA6FA400553373 /* Assets.xcassets */,
 				B564B2B51EFA6FA400553373 /* LaunchScreen.storyboard */,
 				B564B2B81EFA6FA400553373 /* Info.plist */,
+				B564B2DA1EFA701F00553373 /* CustomView.xib */,
+				B564B2DC1EFA707500553373 /* CustomView.swift */,
 			);
 			path = TestAddXibView;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B564B2DB1EFA701F00553373 /* CustomView.xib in Resources */,
 				B564B2B71EFA6FA400553373 /* LaunchScreen.storyboard in Resources */,
 				B564B2B41EFA6FA400553373 /* Assets.xcassets in Resources */,
 				B564B2B21EFA6FA400553373 /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			files = (
 				B564B2AF1EFA6FA400553373 /* ViewController.swift in Sources */,
 				B564B2AD1EFA6FA400553373 /* AppDelegate.swift in Sources */,
+				B564B2DD1EFA707500553373 /* CustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
